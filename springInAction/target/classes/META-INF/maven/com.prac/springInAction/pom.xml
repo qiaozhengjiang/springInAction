@@ -73,7 +73,7 @@
    <dependency>
        <groupId>org.springframework</groupId>
        <artifactId>spring-test</artifactId>
-       <version>4.3.5.RELEASE</version>
+       <version>4.1.0.RELEASE</version>
    </dependency>
 
 
@@ -165,6 +165,13 @@
 	    <groupId>mysql</groupId>
 	    <artifactId>mysql-connector-java</artifactId>
 	    <version>8.0.13</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.github.stefanbirkner/system-rules -->
+	<dependency>
+	    <groupId>com.github.stefanbirkner</groupId>
+	    <artifactId>system-rules</artifactId>
+	    <version>1.19.0</version>
+	    <scope>test</scope>
 	</dependency>
 	
   </dependencies>
